@@ -3,7 +3,7 @@ import google.generativeai as genai
 import base64
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
-genai.configure(api_key=st.secrets["gemini_api"])
+genai.configure(api_key=st.secrets["AIzaSyCTFy5V7h44doYDJRL2FLPC3PBVz5UYG6Y"])
 
 st.set_page_config(page_title="US HACKER-GPT", page_icon=":tada:", layout='wide')
 page_bg_img = f"""
