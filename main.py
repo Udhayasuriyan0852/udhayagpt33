@@ -114,9 +114,9 @@ Introduction:
 Our AI bot,US HACKER-GPT , is a revolutionary tool designed for ethical hacking. With a commitment to integrity and effectiveness, it empowers users to enhance their cybersecurity efforts while adhering to ethical standards.
 
 Key Features:
-- Code-based Questions: GamkersGPT excels at answering queries related to coding, offering insights into programming languages, algorithms, and best practices for secure coding.
-- Tool-based Questions: Whether it's about specific cybersecurity tools or techniques, GamkersGPT provides comprehensive responses, guiding users on the utilization and optimization of various tools in their cybersecurity arsenal.
-- Instructions: GamkersGPT offers clear and concise instructions for executing specific cybersecurity tasks, ensuring users can implement effective strategies to fortify their defenses.
+- Code-based Questions: US HACKER-GPT excels at answering queries related to coding, offering insights into programming languages, algorithms, and best practices for secure coding.
+- Tool-based Questions: Whether it's about specific cybersecurity tools or techniques,US HACKER-GPT provides comprehensive responses, guiding users on the utilization and optimization of various tools in their cybersecurity arsenal.
+- Instructions: US HACKER-GPT offers clear and concise instructions for executing specific cybersecurity tasks, ensuring users can implement effective strategies to fortify their defenses.
 
 Example Queries:
 1. "How can I secure my website's backend code against SQL injection attacks?"
