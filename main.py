@@ -3,7 +3,7 @@ import google.generativeai as genai
 import base64
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
-genai.configure(api_key=st.secrets["AIzaSyC7hJmlRUBDT6HeE1RPT7ovY1fBjgxs1jM"])
+genai.configure(api_key=st.secrets["gemini_api"])
 
 st.set_page_config(page_title="US HACKER-GPT", page_icon=":tada:", layout='wide')
 page_bg_img = f"""
@@ -93,7 +93,7 @@ def ai(text):
     base64_text = base64.b64encode(bytes_text)
     
     encoded_text = base64_text.decode('utf-8')
-    model = ChatGoogleGenerativeAI(model="gemini-pro", convert_system_message_to_human=True, google_api_key="AIzaSyC7hJmlRUBDT6HeE1RPT7ovY1fBjgxs1jME")
+    model = ChatGoogleGenerativeAI(model="gemini-pro", convert_system_message_to_human=True, google_api_key="AIzaSyC7hJmlRUBDT6HeE1RPT7ovY1fBjgxs1jM")
     # data = model(
     # [
     #     SystemMessage(content="""your task is to 1st decrypt the given base64 value and 2nd you need to answer for the question and 3rd give a proper refrence too. Exclude how to decrypt from the out put. NOTE 
